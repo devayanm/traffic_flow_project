@@ -71,7 +71,7 @@ traffic\_flow\_project/
 
 ```bash
 git clone https://github.com/devayanm/traffic_flow_project.git
-cd traffic-flow-analysis
+cd traffic-flow-project
 ```
 
 ### 2️⃣ Create a Virtual Environment
