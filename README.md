@@ -49,7 +49,7 @@ Two main outputs are generated:
 
 ```
 
-traffic\_flow\_project/
+traffic_flow_project/
 │
 ├── main.py                # Main script for processing
 ├── tracker.py             # Centroid Tracker implementation
@@ -58,7 +58,7 @@ traffic\_flow\_project/
 ├── requirements.txt       # Python dependencies
 ├── output/
 │   ├── annotated.mp4      # Annotated output video
-│   ├── vehicle\_counts.csv # Vehicle data report
+│   ├── vehicle_counts.csv # Vehicle data report
 └── README.md              # Project documentation
 
 ```
