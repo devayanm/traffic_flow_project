@@ -1,0 +1,15 @@
+{
+    "lanes": "equal_vertical_3",
+    "output_dir": "output",
+    "model": "yolov8n.pt",
+    "classes": [
+        "car",
+        "truck",
+        "bus",
+        "motorcycle",
+        "bicycle"
+    ],
+    "min_confidence": 0.35,
+    "max_distance": 100,
+    "max_disappeared": 30
+}

@@ -1,0 +1,29 @@
+# Treat all text files as UTF-8 by default
+* text=auto eol=lf
+
+# Ensure Python files are detected properly
+*.py linguist-language=Python
+
+# Handle Jupyter Notebooks (if any in future)
+*.ipynb linguist-language=Python
+
+# Ensure JSON files are recognized and handled consistently
+*.json text
+
+# Mark shell scripts as shell for GitHub linguist
+*.sh linguist-language=Shell
+
+# Normalize CSV files as text
+*.csv text
+
+# Documentation files
+*.md text
+LICENSE text
+README.md text
+
+# Ignore large binary file diffing
+*.mp4 binary
+*.avi binary
+*.mkv binary
+*.mov binary
+*.pt binary

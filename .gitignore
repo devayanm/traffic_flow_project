@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model weights (optional, since YOLO downloads them automatically)
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output folder
+output/
+
+# CSV reports
+*.csv
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
